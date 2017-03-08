@@ -37,15 +37,15 @@
     "outputs" : [ {
       "name" : "stdout",
       "output_type" : "stream",
-      "text" : "res2: String = \nspark.app.id=local-1488976224500\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=61326\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-c7e91df1-c013-4823-8e63-1f3c3ff41d5c\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:61317\n"
+      "text" : "res2: String = \nspark.app.id=local-1488977035694\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=61730\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-f9c1fb61-6436-4418-8f0d-97123e8f3403\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:61727\n"
     }, {
       "metadata" : { },
       "data" : {
-        "text/html" : "spark.app.id=local-1488976224500\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=61326\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-c7e91df1-c013-4823-8e63-1f3c3ff41d5c\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:61317"
+        "text/html" : "spark.app.id=local-1488977035694\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=61730\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-f9c1fb61-6436-4418-8f0d-97123e8f3403\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:61727"
       },
       "output_type" : "execute_result",
       "execution_count" : 1,
-      "time" : "Took: 1 second 305 milliseconds, at 2017-3-8 14:30"
+      "time" : "Took: 866 milliseconds, at 2017-3-8 14:44"
     } ]
   }, {
     "metadata" : {
