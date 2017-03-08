@@ -33,20 +33,8 @@
       "id" : "621C494DF30D4E12AFDF3394E522A246"
     },
     "cell_type" : "code",
-    "source" : "sparkContext.getConf.toDebugString\n",
-    "outputs" : [ {
-      "name" : "stdout",
-      "output_type" : "stream",
-      "text" : "res2: String = \nspark.app.id=local-1488974733991\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=60468\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-f8bef8c1-7e4b-46d6-8aa3-69e631f8e5b6\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:60463\n"
-    }, {
-      "metadata" : { },
-      "data" : {
-        "text/html" : "spark.app.id=local-1488974733991\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=60468\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-f8bef8c1-7e4b-46d6-8aa3-69e631f8e5b6\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:60463"
-      },
-      "output_type" : "execute_result",
-      "execution_count" : 1,
-      "time" : "Took: 2 seconds 308 milliseconds, at 2017-3-8 14:5"
-    } ]
+    "source" : "sparkContext.getConf.toDebugString\n\n",
+    "outputs" : [ ]
   }, {
     "metadata" : {
       "trusted" : true,
