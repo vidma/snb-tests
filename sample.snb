@@ -1,49 +1,74 @@
 {
   "metadata" : {
+    "id" : "0897A027-ED75-4A16-9EE6-1CAACDD2E382",
     "name" : "Simple Spark",
     "user_save_timestamp" : "2014-10-11T17:33:45.703Z",
     "auto_save_timestamp" : "2015-01-10T00:02:12.659Z",
     "language_info" : {
-      "name" : "Scala",
+      "name" : "scala",
       "file_extension" : "scala",
       "codemirror_mode" : "text/x-scala"
     },
     "trusted" : true,
+    "sparkNotebook" : null,
     "customLocalRepo" : null,
     "customRepos" : null,
     "customDeps" : null,
     "customImports" : null,
     "customArgs" : null,
-    "customSparkConf" : null
+    "customSparkConf" : null,
+    "customVars" : null
   },
   "cells" : [ {
-    "metadata" : { },
+    "metadata" : {
+      "id" : "529527B31E0448FDA1EB7D388E285DBE"
+    },
     "cell_type" : "markdown",
     "source" : "### Spark config"
   }, {
     "metadata" : {
       "trusted" : true,
-      "collapsed" : false
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "id" : "621C494DF30D4E12AFDF3394E522A246"
     },
     "cell_type" : "code",
     "source" : "sparkContext.getConf.toDebugString",
-    "outputs" : [ ]
+    "outputs" : [ {
+      "name" : "stdout",
+      "output_type" : "stream",
+      "text" : "res2: String = \nspark.app.id=local-1488974733991\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=60468\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-f8bef8c1-7e4b-46d6-8aa3-69e631f8e5b6\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:60463\n"
+    }, {
+      "metadata" : { },
+      "data" : {
+        "text/html" : "spark.app.id=local-1488974733991\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=60468\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-f8bef8c1-7e4b-46d6-8aa3-69e631f8e5b6\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:60463"
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 1,
+      "time" : "Took: 2 seconds 308 milliseconds, at 2017-3-8 14:5"
+    } ]
   }, {
     "metadata" : {
       "trusted" : true,
-      "collapsed" : false
+      "input_collapsed" : false,
+      "collapsed" : true,
+      "id" : "63316C142393493CB5B420E14DC9AECD"
     },
     "cell_type" : "code",
     "source" : "val count = sparkContext.makeRDD((1 to 1000).toArray).count()\n()",
     "outputs" : [ ]
   }, {
-    "metadata" : { },
+    "metadata" : {
+      "id" : "835E261966D4431BA00628DFE1B1811E"
+    },
     "cell_type" : "markdown",
     "source" : "#### Counting"
   }, {
     "metadata" : {
       "trusted" : true,
-      "collapsed" : false
+      "input_collapsed" : false,
+      "collapsed" : true,
+      "id" : "7DA7E3ED62D2436B8D51BDE3B88D8D92"
     },
     "cell_type" : "code",
     "source" : "<strong>{count} items</strong>",
@@ -51,7 +76,9 @@
   }, {
     "metadata" : {
       "trusted" : true,
-      "collapsed" : false
+      "input_collapsed" : false,
+      "collapsed" : true,
+      "id" : "DE298F29FEFC4606BCB4D21308D1E7F2"
     },
     "cell_type" : "code",
     "source" : "val i:Int = 2",
@@ -59,7 +86,9 @@
   }, {
     "metadata" : {
       "trusted" : true,
-      "collapsed" : false
+      "input_collapsed" : false,
+      "collapsed" : true,
+      "id" : "4ED34DB0C46547CB9CDA567A392A79BF"
     },
     "cell_type" : "code",
     "source" : "val sum = sparkContext.makeRDD((1 to 1000).toArray).map(_ + i).reduce(_+_)\n",
