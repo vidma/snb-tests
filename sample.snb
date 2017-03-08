@@ -34,19 +34,7 @@
     },
     "cell_type" : "code",
     "source" : "sparkContext.getConf.toDebugString\n\n\n\n",
-    "outputs" : [ {
-      "name" : "stdout",
-      "output_type" : "stream",
-      "text" : "res2: String = \nspark.app.id=local-1488977035694\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=61730\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-f9c1fb61-6436-4418-8f0d-97123e8f3403\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:61727\n"
-    }, {
-      "metadata" : { },
-      "data" : {
-        "text/html" : "spark.app.id=local-1488977035694\nspark.app.name=sample.snb\nspark.driver.host=127.0.0.1\nspark.driver.port=61730\nspark.executor.id=driver\nspark.externalBlockStore.folderName=spark-f9c1fb61-6436-4418-8f0d-97123e8f3403\nspark.jars=\nspark.master=local[*]\nspark.port.maxRetries=100\nspark.repl.class.uri=http://127.0.0.1:61727"
-      },
-      "output_type" : "execute_result",
-      "execution_count" : 1,
-      "time" : "Took: 866 milliseconds, at 2017-3-8 14:44"
-    } ]
+    "outputs" : [ ]
   }, {
     "metadata" : {
       "trusted" : true,
