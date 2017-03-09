@@ -29,7 +29,7 @@
     "metadata" : {
       "trusted" : true,
       "input_collapsed" : false,
-      "collapsed" : false,
+      "collapsed" : true,
       "id" : "621C494DF30D4E12AFDF3394E522A246"
     },
     "cell_type" : "code",
