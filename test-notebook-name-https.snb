@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "id" : "foo-bar-id",
+    "name" : "test-notebook-name",
+    "user_save_timestamp" : "1999-09-09T09:09:09.000Z",
+    "auto_save_timestamp" : "2001-01-01T00:00:00.000Z",
+    "language_info" : {
+      "name" : "scala",
+      "file_extension" : "scala",
+      "codemirror_mode" : "text/x-scala"
+    },
+    "trusted" : true,
+    "sparkNotebook" : {
+      "build" : "unit-tests"
+    },
+    "customLocalRepo" : "local-repo",
+    "customRepos" : [ "custom-repo" ],
+    "customDeps" : [ "\"org.custom\" % \"dependency\" % \"1.0.0\"" ],
+    "customImports" : [ "import org.cusom.dependency.SomeClass" ],
+    "customArgs" : [ ],
+    "customSparkConf" : {
+      "spark.driverPort" : 1234
+    },
+    "customVars" : null
+  },
+  "cells" : [ ]
+}
