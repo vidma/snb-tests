@@ -29,12 +29,24 @@
     "metadata" : {
       "trusted" : true,
       "input_collapsed" : false,
-      "collapsed" : true,
+      "collapsed" : false,
       "id" : "621C494DF30D4E12AFDF3394E522A246"
     },
     "cell_type" : "code",
     "source" : "println(\"Hello 123\")\n\n\n\n",
-    "outputs" : [ ]
+    "outputs" : [ {
+      "name" : "stdout",
+      "output_type" : "stream",
+      "text" : "Hello 123\n"
+    }, {
+      "metadata" : { },
+      "data" : {
+        "text/html" : ""
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 1,
+      "time" : "Took: 812 milliseconds, at 2017-3-14 9:6"
+    } ]
   }, {
     "metadata" : {
       "trusted" : true,
