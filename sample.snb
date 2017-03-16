@@ -1,6 +1,6 @@
 {
   "metadata" : {
-    "id" : "26776d3e-9860-45f8-9149-b8b9db1cf1ea",
+    "id" : "e94a748e-113a-4526-9ee6-66397c2a2f09",
     "name" : "Simple Spark",
     "user_save_timestamp" : "2014-10-11T17:33:45.703Z",
     "auto_save_timestamp" : "2015-01-10T00:02:12.659Z",
@@ -24,7 +24,7 @@
       "id" : "E4DF7A920A4042F0933B1A549C825C43"
     },
     "cell_type" : "markdown",
-    "source" : "### Spark config newer"
+    "source" : "### Spark config newer\n"
   }, {
     "metadata" : {
       "trusted" : true,
