@@ -27,19 +27,19 @@
       "id" : "C239A8F05CE2422C8BB07CF90F9BEA67"
     },
     "cell_type" : "code",
-    "source" : "println(\"Hello\")",
+    "source" : "println(\"Hello 2\")",
     "outputs" : [ {
       "name" : "stdout",
       "output_type" : "stream",
-      "text" : "Hello\n"
+      "text" : "Hello 2\n"
     }, {
       "metadata" : { },
       "data" : {
         "text/html" : ""
       },
       "output_type" : "execute_result",
-      "execution_count" : 1,
-      "time" : "Took: 1 second 446 milliseconds, at 2017-3-17 9:31"
+      "execution_count" : 2,
+      "time" : "Took: 1 second 92 milliseconds, at 2017-3-17 9:32"
     } ]
   }, {
     "metadata" : {
