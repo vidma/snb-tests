@@ -1,11 +1,11 @@
 {
   "metadata" : {
-    "id" : "1faaed4a-9df6-4997-bf7f-b20cbd2e57ef",
+    "id" : "5613655E-8745-47AF-AD5C-99B5660D012A",
     "name" : "Simple Spark",
     "user_save_timestamp" : "2014-10-11T17:33:45.703Z",
     "auto_save_timestamp" : "2015-01-10T00:02:12.659Z",
     "language_info" : {
-      "name" : "scala",
+      "name" : "Scala",
       "file_extension" : "scala",
       "codemirror_mode" : "text/x-scala"
     },
@@ -21,16 +21,16 @@
   },
   "cells" : [ {
     "metadata" : {
-      "id" : "E4DF7A920A4042F0933B1A549C825C43"
+      "id" : "7B3518C508BF4F43940FACE3DCD0614E"
     },
     "cell_type" : "markdown",
-    "source" : "### Spark config newer edit 4\n"
+    "source" : "### Spark config"
   }, {
     "metadata" : {
       "trusted" : true,
       "input_collapsed" : false,
       "collapsed" : true,
-      "id" : "394C5634069E45DE8B5084EF3AC3FECE"
+      "id" : "6327E264CC184C929B6A08D11D1B56DC"
     },
     "cell_type" : "code",
     "source" : "sparkContext.getConf.toDebugString",
@@ -40,14 +40,14 @@
       "trusted" : true,
       "input_collapsed" : false,
       "collapsed" : true,
-      "id" : "D8FBFDD14BBD476B87897A068E8F3231"
+      "id" : "9174FDA13CCE4560BE7EED24E8EA2B17"
     },
     "cell_type" : "code",
     "source" : "val count = sparkContext.makeRDD((1 to 1000).toArray).count()\n()",
     "outputs" : [ ]
   }, {
     "metadata" : {
-      "id" : "126B67146A9E48538D016BE325975EC7"
+      "id" : "09AB0F1C361A455A8CDAF6228FD861AF"
     },
     "cell_type" : "markdown",
     "source" : "#### Counting"
@@ -56,7 +56,7 @@
       "trusted" : true,
       "input_collapsed" : false,
       "collapsed" : true,
-      "id" : "FCA9D70819BD4F75BF49F3AE5ED180BB"
+      "id" : "753714AE249B487D90882295AFC16526"
     },
     "cell_type" : "code",
     "source" : "<strong>{count} items</strong>",
@@ -66,7 +66,7 @@
       "trusted" : true,
       "input_collapsed" : false,
       "collapsed" : true,
-      "id" : "DB339EEB0D0340F386FF947D34C377BB"
+      "id" : "B16F879214B74F45A20CC177D6B49657"
     },
     "cell_type" : "code",
     "source" : "val i:Int = 2",
@@ -76,7 +76,7 @@
       "trusted" : true,
       "input_collapsed" : false,
       "collapsed" : true,
-      "id" : "032AF168A61441328B699F18C269F0FB"
+      "id" : "5E02AD6A13E8449B8475BE2E99D011BE"
     },
     "cell_type" : "code",
     "source" : "val sum = sparkContext.makeRDD((1 to 1000).toArray).map(_ + i).reduce(_+_)\n",
