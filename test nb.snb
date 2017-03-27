@@ -27,7 +27,7 @@
       "id" : "7B59A8B12F7E41FAB3698A5FFD738A0B"
     },
     "cell_type" : "code",
-    "source" : "println(\"edited again\")",
+    "source" : "println(\"edited once more\")",
     "outputs" : [ {
       "name" : "stdout",
       "output_type" : "stream",
