@@ -30,16 +30,6 @@
       "trusted" : true,
       "input_collapsed" : false,
       "collapsed" : true,
-      "id" : "E32A69E8FFC74F1889A84C14196045F2"
-    },
-    "cell_type" : "code",
-    "source" : ":store_datafiles\n:dataframe_writer someDataFrame.write //.format(\"parquet\").mode(\"overwrite\").partitionBy(\"col1\")\n:location_code\n// scalaCode returning path where to store the dataset\n\"/tmp/exampleDestinaton\"",
-    "outputs" : [ ]
-  }, {
-    "metadata" : {
-      "trusted" : true,
-      "input_collapsed" : false,
-      "collapsed" : true,
       "id" : "394C5634069E45DE8B5084EF3AC3FECE"
     },
     "cell_type" : "code",
