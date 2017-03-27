@@ -27,19 +27,19 @@
       "id" : "7B59A8B12F7E41FAB3698A5FFD738A0B"
     },
     "cell_type" : "code",
-    "source" : "println(\"1st edit\")",
+    "source" : "println(\"edited\")",
     "outputs" : [ {
       "name" : "stdout",
       "output_type" : "stream",
-      "text" : "1st edit\n"
+      "text" : "edited\n"
     }, {
       "metadata" : { },
       "data" : {
         "text/html" : ""
       },
       "output_type" : "execute_result",
-      "execution_count" : 1,
-      "time" : "Took: 1 second 666 milliseconds, at 2017-3-27 19:56"
+      "execution_count" : 2,
+      "time" : "Took: 1 second 514 milliseconds, at 2017-3-27 19:57"
     } ]
   }, {
     "metadata" : {
