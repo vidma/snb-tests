@@ -27,20 +27,8 @@
       "id" : "C239A8F05CE2422C8BB07CF90F9BEA67"
     },
     "cell_type" : "code",
-    "source" : "println(\"Hello 221s\")",
-    "outputs" : [ {
-      "name" : "stdout",
-      "output_type" : "stream",
-      "text" : "Hello 22\n"
-    }, {
-      "metadata" : { },
-      "data" : {
-        "text/html" : ""
-      },
-      "output_type" : "execute_result",
-      "execution_count" : 1,
-      "time" : "Took: 2 seconds 607 milliseconds, at 2017-3-17 11:58"
-    } ]
+    "source" : "println(\"Hello 220s\")",
+    "outputs" : [ ]
   }, {
     "metadata" : {
       "trusted" : true,
