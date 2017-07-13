@@ -23,11 +23,11 @@
     "metadata" : {
       "trusted" : true,
       "input_collapsed" : false,
-      "collapsed" : false,
+      "collapsed" : true,
       "id" : "C239A8F05CE2422C8BB07CF90F9BEA67"
     },
     "cell_type" : "code",
-    "source" : "println(\"Hello 220s\")",
+    "source" : "println(\"Hello 220s\")\n",
     "outputs" : [ ]
   }, {
     "metadata" : {
