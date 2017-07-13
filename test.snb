@@ -27,7 +27,7 @@
       "id" : "C239A8F05CE2422C8BB07CF90F9BEA67"
     },
     "cell_type" : "code",
-    "source" : "println(\"Hello 230s\")\n",
+    "source" : "println(\"Hello 240s\")\n",
     "outputs" : [ ]
   }, {
     "metadata" : {
